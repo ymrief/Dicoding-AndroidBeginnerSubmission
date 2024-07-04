@@ -1,4 +1,4 @@
-package com.example.dicodingdesignify
+package com.example.dicodingdesignify.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.dicodingdesignify.R
 import com.example.dicodingdesignify.databinding.ActivityWelcomeBinding
 
 class WelcomeActivity : AppCompatActivity() {

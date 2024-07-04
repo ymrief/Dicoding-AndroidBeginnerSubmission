@@ -1,12 +1,14 @@
-package com.example.dicodingdesignify
+package com.example.dicodingdesignify.ui
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
+import com.example.dicodingdesignify.R
 import com.example.dicodingdesignify.databinding.ActivityDashboardBinding
 
 class DashboardActivity : AppCompatActivity() {

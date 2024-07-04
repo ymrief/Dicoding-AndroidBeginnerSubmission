@@ -1,11 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.DicodingDesignify" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/night_teal</item>
+        <item name="android:statusBarColor">@color/night_teal</item>
     </style>
 
-    <style name="Theme.DicodingDesignify" parent="Base.Theme.DicodingDesignify" />
+    <style name="Theme.DicodingDesignify" parent="Base.Theme.DicodingDesignify"/>
 
     <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/night_black</item>
